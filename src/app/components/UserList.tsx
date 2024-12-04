@@ -9,7 +9,7 @@ export default async function UserList(){
   const users = await response.json();
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-4 my-20">
       <table className="table-auto border-collapse border border-gray-300 w-full text-sm text-left">
         <thead>
           <tr className="bg-gray-200">

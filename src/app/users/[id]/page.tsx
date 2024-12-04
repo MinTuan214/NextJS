@@ -2,7 +2,7 @@ import { getIdToUrl } from "@/app/utils/api";
 import { Metadata } from "next";
 
 type Props = {
-  params: { id: string };
+  params: { id: string};
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
